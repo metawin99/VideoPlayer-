@@ -14,6 +14,7 @@
 		66CF48192114265C004328F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CF48172114265C004328F3 /* LaunchScreen.storyboard */; };
 		66CF48242114265D004328F3 /* VideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF48232114265D004328F3 /* VideoPlayerTests.swift */; };
 		66CF482F2114265D004328F3 /* VideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF482E2114265D004328F3 /* VideoPlayerUITests.swift */; };
+		66CF483E2114268F004328F3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF483D2114268F004328F3 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		66CF482A2114265D004328F3 /* VideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CF482E2114265D004328F3 /* VideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUITests.swift; sourceTree = "<group>"; };
 		66CF48302114265D004328F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CF483D2114268F004328F3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		66CF480D2114265A004328F3 /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				66CF483C21142683004328F3 /* Player */,
 				66CF480E2114265A004328F3 /* AppDelegate.swift */,
 				66CF48102114265A004328F3 /* ViewController.swift */,
 				66CF48122114265A004328F3 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				66CF48302114265D004328F3 /* Info.plist */,
 			);
 			path = VideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		66CF483C21142683004328F3 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				66CF483D2114268F004328F3 /* Player.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CF48112114265A004328F3 /* ViewController.swift in Sources */,
+				66CF483E2114268F004328F3 /* Player.swift in Sources */,
 				66CF480F2114265A004328F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACJ6PD7A2R;
 				INFOPLIST_FILE = VideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACJ6PD7A2R;
 				INFOPLIST_FILE = VideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
